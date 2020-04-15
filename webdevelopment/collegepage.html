@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>THIAGARAJAR COLLEGE OF ENGINEERING</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="THIAGARAJAR COLLEGE OF ENGINEERING">
+ <meta name="author" content="Ruchitaa">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+<script src="javascript/login.js"></script> 
+
+</head>
+<body class="body">
+<header class="mainheader">
+ 
+<table><tr><td colspan="3"><img src="images/emblem.jpg" width="100" height="100"></td><td><h1>THIAGARAJAR COLLEGE OF ENGINEERING</h1></td></tr></table>
+<nav>
+    <ul>
+      <li><a href="collegepage.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>       
+      <li><a href="contact.html">Contact</a></li>      
+      
+    </ul> 
+  </nav>
+         
+ 
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+   
+  <img src="images/main.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+   
+  <img src="images/csblock.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+   
+  <img src="images/audi.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">			
+
+			<content>
+<p>Founded in 1957 by philanthropist and industrialist Late Shri.Karumuttu Thiagarajan Chettiar,Thiagarajar College of Engineering(TCE) is an ISO 9001:2008 certified institution affiliated to Anna University and situated in Madurai,the Temple City.The college is funded by Central & State Governments and Management.The courses offered in TCE are approved by the All India Council for Technical Education,New Delhi.TCE was granted Autonomy in the year 1987 and the programmes have been accredited by the National Board of Accreditation(NBA).TCE offers 8 undergraduate programmes,13 postgraduate programs and doctoral programmes in Engineering,Science and Architecture.
+
+
+</p>
+			</content>
+		 
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with TCE.</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with TCE.</p>
+	</article>
+</aside>
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Our Vision</h3>
+		<p>World class quality technical education with strong ethical values.</p>
+	</article>
+</aside>
+<aside class="buttom-sidebar">
+	<article>
+		<h3>NIRF Ranking</h3>
+		<p>TCE secures<sup>th</sup>56 rank in NIRF 2019.</p>
+	</article>
+</aside>
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Alumini</h3>
+		<p>To achieve the institution's mission and goal by linking the institution with its alumini.</p>
+	</article>
+</aside>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+
+	 
+</header>  
+</body>
+</html>
